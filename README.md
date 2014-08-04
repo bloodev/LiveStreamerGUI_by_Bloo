@@ -24,9 +24,9 @@ Features:
 * Has the option to open up the livestreamer config file
 * Has an example config livestreamer file
 * Shows which command will be executed
------
+
 Future plans:
- -----
+-----
 - Working with Twitch's API so the user can authenticate and thus have all of the channels he follows shown in the drop down box.
 - Integration with Twitch's chat system via irc.
 - Redirecting/hiding the output of the command prompt to the execution file.
