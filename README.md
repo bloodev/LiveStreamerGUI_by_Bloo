@@ -4,10 +4,6 @@ It also allows you to input a file name and record a stream to a file (located a
 
 ![Screenshot](http://i.imgur.com/Z1R6ihd.png)
 
-Who is Bloo?
------
-A bored dev. who watches (mostly) Dota2 sreams and develops random (shitty) apps.
-
 Disclaimer:
 -----
 This program comes with no warranty what so ever. 
@@ -28,7 +24,7 @@ Features:
 * Has the option to open up the livestreamer config file
 * Has an example config livestreamer file
 * Shows which command will be executed
-
+-----
 Future plans:
  -----
 - Working with Twitch's API so the user can authenticate and thus have all of the channels he follows shown in the drop down box.
