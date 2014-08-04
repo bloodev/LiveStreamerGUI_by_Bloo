@@ -41,5 +41,5 @@ Requirements:
 - Livestreamer (CMD) [Required]
  
  Direct download of the .exe:
- -----
+-----
  [click here](https://github.com/bloodev/LiveStreamerGUI_by_Bloo/raw/master/LiveStreamerGUI%20by%20Bloo/bin/Debug/LS%20GUI%20-%20Bloo.exe)
