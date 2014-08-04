@@ -1,0 +1,274 @@
+﻿namespace LiveStreamerGUI_by_Bloo
+{
+    partial class MainForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+            this.RecordButton = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.livestreamerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.downloadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editConfigFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.demoConfifFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.FileInputBox = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.VisualCommand = new System.Windows.Forms.RichTextBox();
+            this.watchButton = new System.Windows.Forms.Button();
+            this.QualityInputBox = new System.Windows.Forms.ComboBox();
+            this.ChannelInputBox = new System.Windows.Forms.ComboBox();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // RecordButton
+            // 
+            this.RecordButton.Location = new System.Drawing.Point(241, 149);
+            this.RecordButton.Name = "RecordButton";
+            this.RecordButton.Size = new System.Drawing.Size(75, 23);
+            this.RecordButton.TabIndex = 4;
+            this.RecordButton.Text = "Record";
+            this.RecordButton.UseVisualStyleBackColor = true;
+            this.RecordButton.Click += new System.EventHandler(this.RecordButton_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem,
+            this.livestreamerToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(369, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exitToolStripMenuItem});
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.menuToolStripMenuItem.Text = "Menu";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // livestreamerToolStripMenuItem
+            // 
+            this.livestreamerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.downloadToolStripMenuItem,
+            this.editConfigFileToolStripMenuItem,
+            this.demoConfifFileToolStripMenuItem});
+            this.livestreamerToolStripMenuItem.Name = "livestreamerToolStripMenuItem";
+            this.livestreamerToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
+            this.livestreamerToolStripMenuItem.Text = "Livestreamer";
+            // 
+            // downloadToolStripMenuItem
+            // 
+            this.downloadToolStripMenuItem.Name = "downloadToolStripMenuItem";
+            this.downloadToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.downloadToolStripMenuItem.Text = "Download Livestreeamer";
+            this.downloadToolStripMenuItem.Click += new System.EventHandler(this.downloadToolStripMenuItem_Click);
+            // 
+            // editConfigFileToolStripMenuItem
+            // 
+            this.editConfigFileToolStripMenuItem.Name = "editConfigFileToolStripMenuItem";
+            this.editConfigFileToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.editConfigFileToolStripMenuItem.Text = "Edit LS config file";
+            this.editConfigFileToolStripMenuItem.Click += new System.EventHandler(this.editConfigFileToolStripMenuItem_Click);
+            // 
+            // demoConfifFileToolStripMenuItem
+            // 
+            this.demoConfifFileToolStripMenuItem.Name = "demoConfifFileToolStripMenuItem";
+            this.demoConfifFileToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.demoConfifFileToolStripMenuItem.Text = "Example LS config file";
+            this.demoConfifFileToolStripMenuItem.Click += new System.EventHandler(this.demoConfifFileToolStripMenuItem_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Site";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(238, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Quality";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 53);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(23, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "File";
+            // 
+            // FileInputBox
+            // 
+            this.FileInputBox.Location = new System.Drawing.Point(43, 54);
+            this.FileInputBox.Name = "FileInputBox";
+            this.FileInputBox.Size = new System.Drawing.Size(189, 20);
+            this.FileInputBox.TabIndex = 3;
+            this.FileInputBox.TextChanged += new System.EventHandler(this.FileInputBox_TextChanged);
+            this.FileInputBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FileInputBox_KeyPress);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 76);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(131, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Command to be executed:";
+            // 
+            // VisualCommand
+            // 
+            this.VisualCommand.Location = new System.Drawing.Point(12, 92);
+            this.VisualCommand.Name = "VisualCommand";
+            this.VisualCommand.ReadOnly = true;
+            this.VisualCommand.Size = new System.Drawing.Size(345, 51);
+            this.VisualCommand.TabIndex = 6;
+            this.VisualCommand.Text = "";
+            // 
+            // watchButton
+            // 
+            this.watchButton.Location = new System.Drawing.Point(85, 149);
+            this.watchButton.Name = "watchButton";
+            this.watchButton.Size = new System.Drawing.Size(75, 23);
+            this.watchButton.TabIndex = 5;
+            this.watchButton.Text = "Watch";
+            this.watchButton.UseVisualStyleBackColor = true;
+            this.watchButton.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // QualityInputBox
+            // 
+            this.QualityInputBox.FormattingEnabled = true;
+            this.QualityInputBox.Items.AddRange(new object[] {
+            "source",
+            "high",
+            "medium",
+            "low"});
+            this.QualityInputBox.Location = new System.Drawing.Point(283, 27);
+            this.QualityInputBox.Name = "QualityInputBox";
+            this.QualityInputBox.Size = new System.Drawing.Size(75, 21);
+            this.QualityInputBox.TabIndex = 2;
+            this.QualityInputBox.SelectedIndexChanged += new System.EventHandler(this.QualityInputBox_SelectedIndexChanged);
+            this.QualityInputBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.QualityInputBox_KeyPress);
+            // 
+            // ChannelInputBox
+            // 
+            this.ChannelInputBox.FormattingEnabled = true;
+            this.ChannelInputBox.Items.AddRange(new object[] {
+            "http://www.twitch.tv/sing_sing",
+            "http://www.twitch.tv/eternalenvyy",
+            "-- tournaments",
+            "http://www.twitch.tv/beyondthesummit",
+            "http://www.twitch.tv/joindotared",
+            "http://www.twitch.tv/dreamleague",
+            "http://www.twitch.tv/d2l",
+            "--old",
+            "http://www.twitch.tv/dota2ti",
+            "http://www.twitch.tv/dota2ti_1",
+            "http://www.twitch.tv/dota2ti_2",
+            "http://www.twitch.tv/dota2ti_3",
+            "http://www.twitch.tv/dota2ti_4"});
+            this.ChannelInputBox.Location = new System.Drawing.Point(43, 27);
+            this.ChannelInputBox.Name = "ChannelInputBox";
+            this.ChannelInputBox.Size = new System.Drawing.Size(189, 21);
+            this.ChannelInputBox.TabIndex = 1;
+            this.ChannelInputBox.SelectedIndexChanged += new System.EventHandler(this.ChannelInputBox_SelectedIndexChanged);
+            this.ChannelInputBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ChannelInputBox_KeyPress);
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(369, 180);
+            this.Controls.Add(this.ChannelInputBox);
+            this.Controls.Add(this.QualityInputBox);
+            this.Controls.Add(this.watchButton);
+            this.Controls.Add(this.VisualCommand);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.FileInputBox);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.RecordButton);
+            this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.menuStrip1;
+            this.MaximumSize = new System.Drawing.Size(385, 215);
+            this.MinimumSize = new System.Drawing.Size(385, 215);
+            this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "LiveStreamerGUI by Bloo 1.1 BETA";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button RecordButton;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem livestreamerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem downloadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editConfigFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem demoConfifFileToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox FileInputBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RichTextBox VisualCommand;
+        private System.Windows.Forms.Button watchButton;
+        private System.Windows.Forms.ComboBox QualityInputBox;
+        private System.Windows.Forms.ComboBox ChannelInputBox;
+    }
+}
+

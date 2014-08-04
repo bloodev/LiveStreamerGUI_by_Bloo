@@ -1,0 +1,16 @@
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI_by_Bloo.MainForm.resources
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI_by_Bloo.LiveStreamerReferenceManual.resources
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI by Bloo.csproj.GenerateResource.Cache
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI by Bloo.csprojResolveAssemblyReference.cache
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe.config
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe.manifest
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.application
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.pdb
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe.CodeAnalysisLog.xml
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe.lastcodeanalysissucceeded
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI_by_Bloo_Beta.Properties.Resources.resources
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.exe.manifest
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.application
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.exe
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.pdb

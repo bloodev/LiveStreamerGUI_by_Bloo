@@ -1,0 +1,13 @@
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Release\LiveStreamerGUI by Bloo.exe.config
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Release\LiveStreamerGUI by Bloo.exe.manifest
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Release\LiveStreamerGUI by Bloo.application
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Release\LiveStreamerGUI by Bloo.exe
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Release\LiveStreamerGUI by Bloo.pdb
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI_by_Bloo.MainForm.resources
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI_by_Bloo.LiveStreamerReferenceManual.resources
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI_by_Bloo.Properties.Resources.resources
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.csproj.GenerateResource.Cache
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.exe.manifest
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.application
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.exe
+C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.pdb
