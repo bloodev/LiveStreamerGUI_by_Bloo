@@ -3,6 +3,7 @@ LivestreamerGUI By Bloo is a small open source C#.Net project that lets you watc
 It also allows you to input a file name and record a stream to a file (located at your desktop) instead of watching the stream in a media player.
 
 ![Screenshot](http://i.imgur.com/Z1R6ihd.png)
+You can download directly the exe from [here](https://github.com/bloodev/LiveStreamerGUI_by_Bloo/raw/master/LiveStreamerGUI%20by%20Bloo/bin/Debug/LS%20GUI%20-%20Bloo.exe)
 
 Disclaimer:
 -----
@@ -37,9 +38,5 @@ Future plans:
 Requirements:
 -----
 - .NET Framework 2.0 [Required]
-- VLC, Bsplayer, MPC-HC. or any other media player
+- VLC, Bsplayer, MPC-HC or any other media player
 - Livestreamer (CMD) [Required]
- 
- Direct download of the .exe:
------
- [click here](https://github.com/bloodev/LiveStreamerGUI_by_Bloo/raw/master/LiveStreamerGUI%20by%20Bloo/bin/Debug/LS%20GUI%20-%20Bloo.exe)
