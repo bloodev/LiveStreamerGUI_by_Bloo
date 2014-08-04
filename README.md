@@ -1,4 +1,4 @@
-#What is LS GUI By Bloo?
+# What is LS GUI By Bloo?
 LivestreamerGUI By Bloo is a small open source C#.Net project that lets you watch streams (from twitch.tv and similar) by using [livestreamer] (https://github.com/chrippa/livestreamer#livestreamer)
 It also allows you to input a file name and record a stream to a file (located at your desktop) instead of watching the stream in a media player.
 
@@ -39,6 +39,6 @@ I was in need of a fast and reliable way of watching/recording my favorite strea
  - [Livestreamer (CMD)](http://livestreamer.tanuki.se/en/latest/) [Required]
  
  #Direct download of the .exe:
- [click here]()
+ [click here](https://github.com/bloodev/LiveStreamerGUI_by_Bloo/raw/master/LiveStreamerGUI%20by%20Bloo/bin/Debug/LS%20GUI%20-%20Bloo.exe)
  
  [1]: http://i.imgur.com/Z1R6ihd.png
