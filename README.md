@@ -2,8 +2,7 @@
 LivestreamerGUI By Bloo is a small open source C#.Net project that lets you watch streams (from twitch.tv and similar) by using [livestreamer] (https://github.com/chrippa/livestreamer#livestreamer)
 It also allows you to input a file name and record a stream to a file (located at your desktop) instead of watching the stream in a media player.
 
-.. image:: http://i.imgur.com/Z1R6ihd.png
-    :target: https://github.com/bloodev/LiveStreamerGUI_by_Bloo/raw/master/LiveStreamerGUI%20by%20Bloo/bin/Debug/LS%20GUI%20-%20Bloo.exe
+![Screenshot](http://i.imgur.com/Z1R6ihd.png)
 
 Who is Bloo?
 -----
