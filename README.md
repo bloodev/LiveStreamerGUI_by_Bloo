@@ -36,9 +36,9 @@ Future plans:
 
 Requirements:
 -----
- - .NET Framework 2.0 [Required]
- - VLC, bsplayer, MPC-HC. or any other media player
- - [Livestreamer (CMD)](http://livestreamer.tanuki.se/en/latest/) [Required]
+- .NET Framework 2.0 [Required]
+- VLC, Bsplayer, MPC-HC. or any other media player
+- Livestreamer (CMD) [Required]
  
  Direct download of the .exe:
  -----
