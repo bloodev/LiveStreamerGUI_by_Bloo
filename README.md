@@ -3,6 +3,7 @@ LivestreamerGUI By Bloo is a small open source C#.Net project that lets you watc
 It also allows you to input a file name and record a stream to a file (located at your desktop) instead of watching the stream in a media player.
 
 .. image:: http://i.imgur.com/Z1R6ihd.png
+    :target: https://github.com/bloodev/LiveStreamerGUI_by_Bloo/raw/master/LiveStreamerGUI%20by%20Bloo/bin/Debug/LS%20GUI%20-%20Bloo.exe
 
 Who is Bloo?
 -----
@@ -21,13 +22,13 @@ I was in need of a fast and reliable way of watching/recording my favorite strea
 
 Features:
 -----
-- Allows you to pick a stream from a drop down menu
-- Allows you to watch a stream in your favorite media player
-- Allows you to record a stream to your desktop
-- Has a link to download livestreamer
-- Has the option to open up the livestreamer config file
-- Has an example config livestreamer file
-- Shows which command will be executed
+* Allows you to pick a stream from a drop down menu
+* Allows you to watch a stream in your favorite media player
+* Allows you to record a stream to your desktop
+* Has a link to download livestreamer
+* Has the option to open up the livestreamer config file
+* Has an example config livestreamer file
+* Shows which command will be executed
 
 Future plans:
  -----
