@@ -4,11 +4,12 @@ It also allows you to input a file name and record a stream to a file (located a
 
 ![Screenshot](http://i.imgur.com/Z1R6ihd.png)
 
-You can download the exe from [here](https://github.com/bloodev/LiveStreamerGUI_by_Bloo/raw/master/LiveStreamerGUI%20by%20Bloo/bin/Debug/LS%20GUI%20-%20Bloo.exe)
+You can download the exe from [here](https://github.com/bloodev/LiveStreamerGUI_by_Bloo/raw/master/LiveStreamerGUI%20by%20Bloo/bin/Debug/LS%20GUI%20-%20Bloo.exe).
 
 Disclaimer:
 -----
 This program comes with no warranty what so ever. 
+
 It's licensed under the Unlicense license, included in the repo.
 
 Author's note:
