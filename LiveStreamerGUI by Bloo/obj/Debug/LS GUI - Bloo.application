@@ -11,14 +11,14 @@
     <deploymentProvider codebase="http://google.bg/test/LS%20GUI%20-%20Bloo.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="LS GUI - Bloo.exe.manifest" size="3938">
+    <dependentAssembly dependencyType="install" codebase="LS GUI - Bloo.exe.manifest" size="4006">
       <assemblyIdentity name="LS GUI - Bloo.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ff79j6TD+GKuPu20n160wTqrotA=</dsig:DigestValue>
+        <dsig:DigestValue>CdOC10AMHv4DNMKXh8iYChjbH4c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

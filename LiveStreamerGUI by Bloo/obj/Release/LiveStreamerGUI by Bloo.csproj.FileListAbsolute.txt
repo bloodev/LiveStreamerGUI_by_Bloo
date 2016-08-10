@@ -11,3 +11,11 @@ C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by 
 C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.application
 C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.exe
 C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.pdb
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Release\LS GUI - Bloo.exe.config
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.csprojResolveAssemblyReference.cache
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI_by_Bloo.MainForm.resources
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI_by_Bloo.LiveStreamerReferenceManual.resources
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI_by_Bloo_Beta.Properties.Resources.resources
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LiveStreamerGUI by Bloo.csproj.GenerateResource.Cache
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LS GUI - Bloo.exe
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Release\LS GUI - Bloo.pdb

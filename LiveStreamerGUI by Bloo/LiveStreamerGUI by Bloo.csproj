@@ -54,10 +54,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>906C9957F74E716D67016F34934C4153D12C21AC</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>93E20E49F38712D898F698A5278E56C7DD11EC0A</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>LiveStreamerGUI by Bloo_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -75,6 +76,12 @@
   </PropertyGroup>
   <PropertyGroup>
     <StartupObject>LiveStreamerGUI_by_Bloo.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>LiveStreamerGUI by Bloo_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

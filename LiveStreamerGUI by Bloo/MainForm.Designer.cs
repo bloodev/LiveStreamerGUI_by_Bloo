@@ -81,7 +81,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(92, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -130,7 +130,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(238, 31);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 13);
+            this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Quality";
             // 
@@ -147,7 +147,7 @@
             // 
             this.FileInputBox.Location = new System.Drawing.Point(43, 54);
             this.FileInputBox.Name = "FileInputBox";
-            this.FileInputBox.Size = new System.Drawing.Size(189, 20);
+            this.FileInputBox.Size = new System.Drawing.Size(189, 21);
             this.FileInputBox.TabIndex = 3;
             this.FileInputBox.TextChanged += new System.EventHandler(this.FileInputBox_TextChanged);
             this.FileInputBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.FileInputBox_KeyPress);
@@ -157,7 +157,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(12, 76);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(131, 13);
+            this.label4.Size = new System.Drawing.Size(134, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "Command to be executed:";
             // 
@@ -184,10 +184,15 @@
             // 
             this.QualityInputBox.FormattingEnabled = true;
             this.QualityInputBox.Items.AddRange(new object[] {
-            "source",
-            "high",
-            "medium",
-            "low"});
+            "1080p60",
+            "720p60",
+            "720p30",
+            "540p30",
+            "480p30",
+            "360p30",
+            "240p30",
+            "144p30",
+            "audio"});
             this.QualityInputBox.Location = new System.Drawing.Point(283, 27);
             this.QualityInputBox.Name = "QualityInputBox";
             this.QualityInputBox.Size = new System.Drawing.Size(75, 21);
@@ -200,18 +205,15 @@
             this.ChannelInputBox.FormattingEnabled = true;
             this.ChannelInputBox.Items.AddRange(new object[] {
             "http://www.twitch.tv/sing_sing",
+            "http://www.twitch.tv/arteezy",
             "http://www.twitch.tv/eternalenvyy",
+            "http://www.twitch.tv/admiralbulldog",
             "-- tournaments",
             "http://www.twitch.tv/beyondthesummit",
             "http://www.twitch.tv/joindotared",
             "http://www.twitch.tv/dreamleague",
             "http://www.twitch.tv/d2l",
-            "--old",
-            "http://www.twitch.tv/dota2ti",
-            "http://www.twitch.tv/dota2ti_1",
-            "http://www.twitch.tv/dota2ti_2",
-            "http://www.twitch.tv/dota2ti_3",
-            "http://www.twitch.tv/dota2ti_4"});
+            "http://www.twitch.tv/dota2ti"});
             this.ChannelInputBox.Location = new System.Drawing.Point(43, 27);
             this.ChannelInputBox.Name = "ChannelInputBox";
             this.ChannelInputBox.Size = new System.Drawing.Size(189, 21);
@@ -223,7 +225,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(369, 180);
+            this.ClientSize = new System.Drawing.Size(369, 178);
             this.Controls.Add(this.ChannelInputBox);
             this.Controls.Add(this.QualityInputBox);
             this.Controls.Add(this.watchButton);

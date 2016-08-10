@@ -4,7 +4,7 @@
   <description asmv2:iconFile="twitch-logo_converted.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="LS GUI - Bloo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="LS GUI - Bloo" version="1.0.0.0" publicKeyToken="288081F302F1A76A" language="neutral" processorArchitecture="msil" />
     <commandLine file="LS GUI - Bloo.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LS GUI - Bloo.exe" size="33280">
-      <assemblyIdentity name="LS GUI - Bloo" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LS GUI - Bloo.exe" size="33664">
+      <assemblyIdentity name="LS GUI - Bloo" version="1.0.0.0" publicKeyToken="288081F302F1A76A" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fQNTr9qUTBTXhiPzt+fHBbB9Va8=</dsig:DigestValue>
+        <dsig:DigestValue>kVxd2tqi3GMSO4+JWwQK46ZsP7w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
