@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <assemblyIdentity name="LS GUI - Bloo.application" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
-  <description asmv2:publisher="LS GUI - Bloo" asmv2:product="LS GUI - Bloo" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <assemblyIdentity name="StreamLink GUI - Bloo.application" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <description asmv2:publisher="StreamLink GUI - Bloo" asmv2:product="StreamLink GUI - Bloo" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true">
     <subscription>
       <update>
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="http://google.bg/test/LS%20GUI%20-%20Bloo.application" />
+    <deploymentProvider codebase="http://google.bg/test/StreamLink%20GUI%20-%20Bloo.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="LS GUI - Bloo.exe.manifest" size="4006">
-      <assemblyIdentity name="LS GUI - Bloo.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+    <dependentAssembly dependencyType="install" codebase="StreamLink GUI - Bloo.exe.manifest" size="3986">
+      <assemblyIdentity name="StreamLink GUI - Bloo.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>CdOC10AMHv4DNMKXh8iYChjbH4c=</dsig:DigestValue>
+        <dsig:DigestValue>B0IBvTN1ARisvZeRK9wPHHXge0E=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

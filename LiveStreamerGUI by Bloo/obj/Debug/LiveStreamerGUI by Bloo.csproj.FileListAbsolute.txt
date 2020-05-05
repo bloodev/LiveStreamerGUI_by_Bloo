@@ -14,19 +14,19 @@ C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by 
 C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.application
 C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.exe
 C:\Users\Bloo\Documents\Visual Studio 2013\_projects_by_bloo\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.pdb
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe.config
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.exe
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.pdb
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\StreamLink GUI - Bloo.exe.config
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\StreamLink GUI - Bloo.exe.manifest
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\StreamLink GUI - Bloo.application
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\StreamLink GUI - Bloo.exe
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\StreamLink GUI - Bloo.pdb
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\StreamLink GUI - Bloo.exe.CodeAnalysisLog.xml
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\StreamLink GUI - Bloo.exe.lastcodeanalysissucceeded
 K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI by Bloo.csprojResolveAssemblyReference.cache
 K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI_by_Bloo.MainForm.resources
 K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI_by_Bloo.LiveStreamerReferenceManual.resources
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI_by_Bloo_Beta.Properties.Resources.resources
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\StreamLInk_GUI_by_Bloo_Beta.Properties.Resources.resources
 K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LiveStreamerGUI by Bloo.csproj.GenerateResource.Cache
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe.manifest
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.application
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.pdb
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe.CodeAnalysisLog.xml
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\bin\Debug\LS GUI - Bloo.exe.lastcodeanalysissucceeded
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.exe.manifest
-K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\LS GUI - Bloo.application
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\StreamLink GUI - Bloo.exe.manifest
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\StreamLink GUI - Bloo.application
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\StreamLink GUI - Bloo.exe
+K:\Work\c++\source\LiveStreamerGUI by Bloo\LiveStreamerGUI by Bloo\obj\Debug\StreamLink GUI - Bloo.pdb

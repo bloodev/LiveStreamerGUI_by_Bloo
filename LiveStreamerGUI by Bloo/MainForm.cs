@@ -22,44 +22,20 @@ namespace LiveStreamerGUI_by_Bloo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           QualityInputBox.SelectedIndex = 0;
-
+            QualityInputBox.SelectedIndex = 0;
+            VisualCommand.Text = "Command to be executed...";
         }
 
-        // <chanel input>
-        private void ChannelInputBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (FileInputBox.Text.Length == 0)
-            {
-                VisualCommand.Text = "livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text;
-            }
-            else
-                VisualCommand.Text = "livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text + " -o \"" + PathToDesktop + "\\" + FileInputBox.Text + "\"";
-        }
-
-        private void ChannelInputBox_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == Convert.ToChar(Keys.Return))
-            {
-                watchButton.PerformClick();
-            }
-            if (FileInputBox.Text.Length == 0)
-            {
-                VisualCommand.Text = "livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text;
-            }
-            else
-                VisualCommand.Text = "livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text + " -o \"" + PathToDesktop + "\\" + FileInputBox.Text + "\"";
-        }
 
         // <file input>
         private void FileInputBox_TextChanged(object sender, EventArgs e)
         {
             if (FileInputBox.Text.Length == 0)
             {
-                VisualCommand.Text = "livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text;
+                VisualCommand.Text = "streamlink " + ChannelInputBox.Text + " " + QualityInputBox.Text;
             }
             else
-                VisualCommand.Text = "livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text + " -o \"" + PathToDesktop + "\\" + FileInputBox.Text + "\"";
+                VisualCommand.Text = "streamlink " + ChannelInputBox.Text + " " + QualityInputBox.Text + " -o \"" + PathToDesktop + "\\" + FileInputBox.Text + "\"";
         }
 
         private void FileInputBox_KeyPress(object sender, KeyPressEventArgs e)
@@ -75,10 +51,10 @@ namespace LiveStreamerGUI_by_Bloo
         {
             if (FileInputBox.Text.Length == 0)
             {
-                VisualCommand.Text = "livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text;
+                VisualCommand.Text = "streamlink " + ChannelInputBox.Text + " " + QualityInputBox.Text;
             }
             else
-                VisualCommand.Text = "livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text + " -o \"" + PathToDesktop + "\\" + FileInputBox.Text + "\"";
+                VisualCommand.Text = "streamlink " + ChannelInputBox.Text + " " + QualityInputBox.Text + " -o \"" + PathToDesktop + "\\" + FileInputBox.Text + "\"";
         }
 
         private void QualityInputBox_KeyPress(object sender, KeyPressEventArgs e)
@@ -96,13 +72,22 @@ namespace LiveStreamerGUI_by_Bloo
             System.Diagnostics.Process process = new System.Diagnostics.Process();
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             //startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            string SendCommand = "/K livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text + " -o \"" + PathToDesktop + "\\" + FileInputBox.Text + "\"";
+
             if (FileInputBox.Text.Length == 0)
             {
-                MessageBox.Show("No file name specified", "Error", MessageBoxButtons.OK);
+                string fileName = ChannelInputBox.Text.ToString().Replace("https://chaturbate.com/", "").Replace("/", "").Replace(" ", "")
+                    + "_" + DateTime.Now.ToString("dd.MM.yyyy_HHmm") + ".mp4";
+                string SendCommand = "/K streamlink " + ChannelInputBox.Text + " best -o "+ PathToDesktop + "\\cb\\" + fileName + "\"";
+                VisualCommand.Text = SendCommand.Replace("/K ", "");
+                //MessageBox.Show("Debug: " + SendCommand, "Warning", MessageBoxButtons.OK);
+                // MessageBox.Show("No file name specified", "Error", MessageBoxButtons.OK);
+                System.Diagnostics.Process.Start("CMD.exe", SendCommand);
             }
             else
+            {
+                string SendCommand = "/K streamlink " + ChannelInputBox.Text + " " + QualityInputBox.Text + " -o \"" + PathToDesktop + "\\" + FileInputBox.Text + "\"";
                 System.Diagnostics.Process.Start("CMD.exe", SendCommand);
+            }
 
         }
 
@@ -113,7 +98,7 @@ namespace LiveStreamerGUI_by_Bloo
 
         private void downloadToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string url = "https://github.com/chrippa/livestreamer/releases";
+            string url = "https://github.com/streamlink/streamlink/releases/tag/0.14.2";
             System.Diagnostics.Process process = new System.Diagnostics.Process();
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             System.Diagnostics.Process.Start(url);
@@ -124,7 +109,7 @@ namespace LiveStreamerGUI_by_Bloo
             System.Diagnostics.Process process = new System.Diagnostics.Process();
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
 
-            var fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "livestreamer\\livestreamerrc");
+            var fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "streamlink\\streamlinkrc");
             System.Diagnostics.Process.Start("notepad.exe", fileName);
         }
 
@@ -134,13 +119,29 @@ namespace LiveStreamerGUI_by_Bloo
             myForm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void WatchBtn_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process process = new System.Diagnostics.Process();
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             //startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
-            string SendCommand = "/K livestreamer " + ChannelInputBox.Text + " " + QualityInputBox.Text;
+            string SendCommand = "/K streamlink " + ChannelInputBox.Text + " " + QualityInputBox.Text;
             System.Diagnostics.Process.Start("CMD.exe", SendCommand);
+
+        }
+
+        private void ChannelInputBox_TextUpdate(object sender, EventArgs e)
+        {
+            if(ChannelInputBox.Text.Contains("chaturbate"))
+            {
+                string fileName = ChannelInputBox.Text.ToString().Replace("https://chaturbate.com/", "").Replace("/", "").Replace(" ", "")
+        + "_" + DateTime.Now.ToString("dd.MM.yyyy_HHmm") + ".mp4";
+                string SendCommand = "/K streamlink " + ChannelInputBox.Text + " best -o " + PathToDesktop + "\\cb\\" + fileName + "\"";
+                VisualCommand.Text = SendCommand.Replace("/K ", "");
+            }
+            else
+            {
+                VisualCommand.Text = "streamlink " + ChannelInputBox.Text + " " + QualityInputBox.Text;
+            }
 
         }
     }

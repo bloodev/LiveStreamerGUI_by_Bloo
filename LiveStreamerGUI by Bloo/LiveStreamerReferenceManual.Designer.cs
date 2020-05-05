@@ -36,23 +36,25 @@
             // 
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(624, 445);
+            this.richTextBox1.Size = new System.Drawing.Size(1040, 719);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // LiveStreamerReferenceManual
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 445);
+            this.ClientSize = new System.Drawing.Size(1040, 719);
             this.Controls.Add(this.richTextBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(120, 120);
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.MinimumSize = new System.Drawing.Size(184, 156);
             this.Name = "LiveStreamerReferenceManual";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "LiveStreamerReferenceManual";
+            this.Text = "Streamlink config example";
             this.ResumeLayout(false);
 
         }
